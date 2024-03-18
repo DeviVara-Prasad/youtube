@@ -4,7 +4,7 @@ import Button from './Button'
 const buttonList = ["All","Live","Cricket","Cooking","Soccer","News"];
 const ButtonList = () => {
   return (
-    <div className='flex'>
+    <div className='flex flex-wrap sm:flex'>
       {
         buttonList.map(
           (name) => <Button key={name} name={name}/>

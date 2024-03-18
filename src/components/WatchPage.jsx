@@ -16,11 +16,11 @@ const WatchPage = () => {
     )
     return (
         <div className='flex flex-col w-full'>
-            <div className='mx-10 flex'>
-                <div>
-                    <iframe width={isMenuOpen?650:800} height="400" src={`https://www.youtube.com/embed/${searchParams.get('v')}/?si=XzJCMfyti455-J7B`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <div className='mx-10 flex flex-col justify-center items-center lg:flex-row'>
+                <div className='my-10'>
+                    <iframe className='sm:w-[45rem] sm:h-[400px]' src={`https://www.youtube.com/embed/${searchParams.get('v')}/?si=XzJCMfyti455-J7B`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
-                <div className='mx-5 w-full'>
+                <div className='mx-5 w-full my-10'>
                     <LiveChat/>
                 </div>
             </div>
