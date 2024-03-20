@@ -1,5 +1,5 @@
 export const YOUTUBE_VIDEOS_API = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=IN&key=${import.meta.env.VITE_YOUTUBE_API_KEY}&maxResults=50`
-export const YOUTUBE_SEARCH_API = "https://youtube-proxy-server-g75d.onrender.com/api/search?q=";
+export const YOUTUBE_SEARCH_API = "https://agreeable-teal-sun-hat.cyclic.app//api/search?q=";
 
 export const GOOGLE_SEARCH_API = "https://www.google.com/complete/search?cp=1&client=gws-wiz&xssi=t&gs_pcrt=undefined&hl=en-IN&authuser=0&psi=CODxZZnWDZL5seMP3N2O6Ak.1710350344734&dpr=2.0000000596046448&q="
 
